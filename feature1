@@ -1,0 +1,4 @@
+So to paste contents into vim without auto indent,
+use <C-r><C-o>* in most unix systems.
+ You can add a mapping in the your vimrc inoremap <C-r> <C-r><C-o> so you can paste the contents of the * register normally without the auto indent by using <C-r>* .
+ Note: this only works if vim is compiled with clipboard
